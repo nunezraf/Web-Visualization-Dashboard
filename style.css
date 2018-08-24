@@ -1,0 +1,76 @@
+
+#logo{
+  background-color: skyblue;
+  color: white;
+  margin-left: 5px;
+}
+
+p{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 26px;
+}
+.footer {
+   border-top: 5px black;
+   /*border-top-color: black;*/
+   bottom: 0;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+#box1 {
+    margin-top: 50px;
+    border-left: 30px;
+    height: 450px;
+    padding: 30px;
+    color: #fff;
+    background: deepskyblue;
+    text-align: justify;
+    font-size: 14;
+    /*margin-left: 100px;
+    margin-right: 15px;*/
+
+
+}
+
+.maxtemp{
+
+}
+
+#box2 {
+    margin-top: 50px;
+    height: 450px;
+    width: 390px;
+    padding: 20px;
+    color: #fff;
+    background: deepskyblue;
+    text-align: justify;
+    padding-left: 5px;
+    font-size: 14;
+
+}
+
+
+/*this wrap controls the image on my summary: laitutde section*/
+
+ .wrap {
+
+ 	float: left
+ 	height: 400px;
+  width: 350px;
+  margin-right:5px;
+/* the wrap2,3 controls the 4 images on my col-med-4 of my landing page */
+ }
+.wrap2{
+    margin: 5px;
+	  height: 170px;
+    width: 170px;
+
+}

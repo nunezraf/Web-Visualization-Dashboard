@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Visualization Dashboard</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+</style>
+<body>
+<!-- creating Nav bar  -->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a id="logo"class="navbar-brand" href="../index.html">Latitude</a>
+      </div>
+
+      <!-- the nav bar -->
+      <ul class="nav navbar-nav navbar-right">
+
+      	<li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="maxtemp.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <!-- <li role="separator" class="divider"></li> -->
+              <li><a href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+
+          <li>
+          	<a href="comparison.html">Comparison</a>
+          </li>
+
+          <li>
+          	<a href="data.html">Data</a>
+          </li>
+
+        </ul>
+</nav>
+<!-- creating box  -->
+<!-- <div class="container" > -->
+<div class="container">
+
+
+	<div class= "row">
+		<div class= "col-md-8">
+			<div id= "box1" class="box skyblue">
+
+
+				<h3>City Latitude vs Cloudiness </h3>
+
+			  <img class= "wrap" src="../Resources/assets/images/Fig3.png" >
+				<p>
+				Based on the observations it seems that there is no correlation betwen
+				latitude and cloudiness, however by looking a bit closer one can notice that
+				higherlatitudes have bigger concentration of cloudiness.
+				</p>
+
+			</div>
+
+		</div>
+<!-- adding the 4 images for visualizations on my landing pages  -->
+<!--  second box for vizualizations-->
+<div id="box2" class="col-md-4">
+
+ <div>
+
+	 <div class= "box skyblue">
+
+		 <h3>Visualizations</h3>
+		 <div class="col-md-6">
+				 <a href="maxtemp.html">
+			 <img class = "wrap2" src="../Resources/assets/images/Fig1.png">
+				 </a>
+					 <a href="humidity.html">
+			 <img class = "wrap2" src="../Resources/assets/images/Fig2.png">
+				 </a>
+			 </div>
+
+			 <div class="col-md-6">
+					 <a href="cloudiness.html">
+			 <img class = "wrap2" src="../Resources/assets/images/Fig3.png">
+					 </a>
+				 <a href="windspeed.html">
+			 <img class = "wrap2" src="../Resources/assets/images/Fig4.png">
+					 </a>
+
+			 </div>
+	 </div>
+ </div>
+</div>
+<!-- my footer  -->
+
+<div class="footer">
+  <p> @ Copyright Data Scince Bootcamp 2018</p>
+</div>
+
+<!-- jQuery CDN -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+   <!-- Bootstrap CDN -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- end of my body  -->
+</body>
+</html>

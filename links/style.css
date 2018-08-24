@@ -1,0 +1,96 @@
+
+
+#logo{
+  background-color: skyblue;
+  color: white;
+  margin-left: 5px;
+}
+
+
+
+body{
+  margin-left: 0px;
+  padding-left: 0px;
+  border-left: 0px;
+  /* width: 800px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+
+}
+
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.footer {
+   border-top: 5px black;
+   /*border-top-color: black;*/
+   bottom: 0;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+#box1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+      margin-bottom: 50px;
+    margin-left: 0px;
+    border-left: 10px;
+    height: 500px;
+    width: 750px;
+    /* padding: 30px; */
+    color: #fff;
+    background: deepskyblue;
+    text-align: justify;
+
+
+
+}
+
+#box2 {
+    padding-right: 200px;
+    margin-top: 50px;
+    height: 400px;
+    width: 390px;
+    padding: 0px;
+    color: #fff;
+    background: deepskyblue;
+    text-align: justify;
+    padding-left: 10px;
+    /* border-left: 100px; */
+
+}
+
+
+/*this wrap controls the image on my summary: laitutde section*/
+
+ .wrap {
+  position: center;
+ 	/*float: center;*/
+ 	height: 300px;
+  width: 50%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  /*margin-right:5px;*/
+/* the wrap2,3 controls the 4 images on my col-med-4 of my landing page */
+ }
+.wrap2 {
+
+  height: 150px;
+  width: 150px;
+  margin:5px;
+
+}
